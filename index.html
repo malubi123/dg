@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wyszukiwarka Filmów</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Wyszukiwarka Filmów</h1>
+    <input type="text" id="searchQuery" placeholder="Wyszukaj filmiki...">
+    <button onclick="searchVideos()">Szukaj</button>
+
+    <div id="results"></div>
+    <div id="player" style="display: none;">
+        <video id="videoPlayer" controls width="640" height="360"></video>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
